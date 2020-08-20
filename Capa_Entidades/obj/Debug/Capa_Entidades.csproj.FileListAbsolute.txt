@@ -1,0 +1,17 @@
+D:\Fernando\Algoritmos\C#\Proyecto_Final\Capa_Entidades\bin\Debug\Capa_Entidades.dll
+D:\Fernando\Algoritmos\C#\Proyecto_Final\Capa_Entidades\bin\Debug\Capa_Entidades.pdb
+D:\Fernando\Algoritmos\C#\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.csproj.CoreCompileInputs.cache
+D:\Fernando\Algoritmos\C#\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.dll
+D:\Fernando\Algoritmos\C#\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.pdb
+F:\Proyecto_Final\Capa_Entidades\bin\Debug\Capa_Entidades.dll
+F:\Proyecto_Final\Capa_Entidades\bin\Debug\Capa_Entidades.pdb
+F:\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.csprojResolveAssemblyReference.cache
+F:\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.dll
+F:\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.pdb
+H:\Proyecto_Final\Capa_Entidades\bin\Debug\Capa_Entidades.dll
+H:\Proyecto_Final\Capa_Entidades\bin\Debug\Capa_Entidades.pdb
+H:\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.csprojAssemblyReference.cache
+H:\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.csproj.CoreCompileInputs.cache
+H:\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.dll
+H:\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.pdb
+D:\Fernando\Algoritmos\C#\Proyecto_Final\Capa_Entidades\obj\Debug\Capa_Entidades.csprojAssemblyReference.cache

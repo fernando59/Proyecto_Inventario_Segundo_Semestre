@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{683E55E3-2AC9-4A73-823D-A50086ACE883}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Capa_Presentacion</RootNamespace>
+    <AssemblyName>Capa_Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Fernando\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Fernando</ProductName>
+    <PublisherName>Fernando</PublisherName>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icono_Proyecto.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7C34CA1BB24DE1B0D39920D6430603EF1D5A6BFE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Capa_Presentacion_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buscar\Buscar_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar\Buscar_Cliente.Designer.cs">
+      <DependentUpon>Buscar_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar\Buscar_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar\Buscar_Producto.Designer.cs">
+      <DependentUpon>Buscar_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar\Buscar_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar\Buscar_Proveedor.Designer.cs">
+      <DependentUpon>Buscar_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Imagen_Circular.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MessageBox\MessageboxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox\MessageboxForm.Designer.cs">
+      <DependentUpon>MessageboxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox\MessageBoxModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox\MessageBoxModificar.Designer.cs">
+      <DependentUpon>MessageBoxModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox\MessageEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox\MessageEliminar.Designer.cs">
+      <DependentUpon>MessageEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox\MessageInsertar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox\MessageInsertar.Designer.cs">
+      <DependentUpon>MessageInsertar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox\VacioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox\VacioForm.Designer.cs">
+      <DependentUpon>VacioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedido_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedido_Form.Designer.cs">
+      <DependentUpon>Pedido_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona\Registrar_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona\Registrar_Cliente.Designer.cs">
+      <DependentUpon>Registrar_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona\Registrar_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona\Registrar_Proveedor.Designer.cs">
+      <DependentUpon>Registrar_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Agregar_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Agregar_Producto.Designer.cs">
+      <DependentUpon>Agregar_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Categoria.Designer.cs">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario.designer.cs">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Productos_Formulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Productos_Formulario.Designer.cs">
+      <DependentUpon>Productos_Formulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar.Designer.cs">
+      <DependentUpon>Registrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar_Editar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar_Editar.Designer.cs">
+      <DependentUpon>Registrar_Editar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta_Form.Designer.cs">
+      <DependentUpon>Venta_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Buscar\Buscar_Cliente.resx">
+      <DependentUpon>Buscar_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar\Buscar_Producto.resx">
+      <DependentUpon>Buscar_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar\Buscar_Proveedor.resx">
+      <DependentUpon>Buscar_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox\MessageboxForm.resx">
+      <DependentUpon>MessageboxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox\MessageBoxModificar.resx">
+      <DependentUpon>MessageBoxModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox\MessageEliminar.resx">
+      <DependentUpon>MessageEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox\MessageInsertar.resx">
+      <DependentUpon>MessageInsertar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox\VacioForm.resx">
+      <DependentUpon>VacioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedido_Form.resx">
+      <DependentUpon>Pedido_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona\Registrar_Cliente.resx">
+      <DependentUpon>Registrar_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona\Registrar_Proveedor.resx">
+      <DependentUpon>Registrar_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Agregar_Producto.resx">
+      <DependentUpon>Agregar_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Categoria.resx">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario.resx">
+      <DependentUpon>Formulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Productos_Formulario.resx">
+      <DependentUpon>Productos_Formulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Registrar.resx">
+      <DependentUpon>Registrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar_Editar.resx">
+      <DependentUpon>Registrar_Editar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta_Form.resx">
+      <DependentUpon>Venta_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Capa_Presentacion_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_Entidades\Capa_Entidades.csproj">
+      <Project>{1289501c-dde2-467e-a5df-b202134d7a4d}</Project>
+      <Name>Capa_Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa_Negocio\Capa_Negocio.csproj">
+      <Project>{b4d03eb4-759c-4790-a0e1-2199cd4ffaa9}</Project>
+      <Name>Capa_Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icono_Proyecto.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
